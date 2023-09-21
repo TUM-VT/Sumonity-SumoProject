@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-09-18 15:27:54 by Eclipse SUMO netedit Version 1.18.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="f_0" begin="0.00" departSpeed="avg" from="-55" to="-45" end="3600.00" vehsPerHour="349.99"/>
+    <flow id="f_1" begin="0.00" departSpeed="avg" from="-55" to="-50" end="3600.00" vehsPerHour="150.00"/>
+    <flow id="f_10" type="DEFAULT_BIKETYPE" begin="0.00" departSpeed="avg" from="32" to="-50" end="3600.00" vehsPerHour="100.00"/>
+    <flow id="f_11" type="DEFAULT_BIKETYPE" begin="0.00" departSpeed="avg" from="-55" to="-32" end="3600.00" vehsPerHour="100.00"/>
+    <flow id="f_2" begin="0.00" departSpeed="avg" from="-55" to="-32" end="3600.00" vehsPerHour="100.00"/>
+    <flow id="f_3" begin="0.00" departSpeed="avg" from="50" to="-32" end="3600.00" vehsPerHour="100.00"/>
+    <flow id="f_4" begin="0.00" departSpeed="avg" from="50" to="-45" end="3600.00" vehsPerHour="100.00"/>
+    <flow id="f_5" begin="0.00" departSpeed="avg" from="32" to="-50" end="3600.00" vehsPerHour="100.00"/>
+    <flow id="f_6" begin="0.00" departSpeed="avg" from="32" to="-45" end="3600.00" vehsPerHour="100.00"/>
+    <flow id="f_7" type="DEFAULT_BIKETYPE" begin="0.00" departSpeed="avg" from="-55" to="-45" end="3600.00" vehsPerHour="250.00"/>
+    <flow id="f_8" type="DEFAULT_BIKETYPE" begin="0.00" departSpeed="avg" from="50" to="-45" end="3600.00" vehsPerHour="100.00"/>
+    <flow id="f_9" type="DEFAULT_BIKETYPE" begin="0.00" departSpeed="avg" from="-55" to="-50" end="3600.00" vehsPerHour="100.00"/>
+</routes>

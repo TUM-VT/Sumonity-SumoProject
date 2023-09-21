@@ -7,10 +7,15 @@
 
     <input>
         <net-file value="tum_009.net.xml"/>
-        <route-files value="random_demand.rou.xml"/>
+        <route-files value="tum_single_intersection_demand.rou.xml"/>
+        <!-- <route-files value ="tum_single_intersection_demand_bikes.rou.xml"/> -->
+        <!-- <route-files value ="right_turn_test.rou.xml"/> -->
     </input>
     <time>
         <end value="3600"/>
-        <step-length value="0.01"/>
+        <step-length value="0.1"/>
     </time>
+    <gui>
+        <delay value="1000"/>
+    </gui>
 </configuration>
