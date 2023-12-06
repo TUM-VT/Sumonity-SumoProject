@@ -13,10 +13,10 @@
     <flow id="f_5" type="DEFAULT_BIKETYPE" begin="0.00" from="-44" to="-41" end="3600.00" vehsPerHour="50.00"/>
     <flow id="f_6" type="DEFAULT_BIKETYPE" begin="0.00" from="-44" to="-40" end="3600.00" vehsPerHour="100.00"/>
     <flow id="f_7" type="DEFAULT_BIKETYPE" begin="0.00" from="28" to="-41" end="3600.00" vehsPerHour="50.00"/>
-    <person id="p_0" depart="0.00">
+    <!-- <person id="p_0" depart="0.00">
         <personTrip from="-27" to="-41" lines="ANY"/>
     </person>
     <person id="p_1" depart="0.00">
         <personTrip from="-27" to="-40" lines="ANY"/>
-    </person>
+    </person> -->
 </routes>
