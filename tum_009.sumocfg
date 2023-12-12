@@ -4,9 +4,12 @@
 
     <input>
         <net-file value="tum_009.net.xml"/>
-        <route-files value="pedestrian_demand.rou.xml"/>
+        <!-- <route-files value="pedestrian_demand.rou.xml"/> -->
         <!-- <route-files value="right_turn_test_bike.rou.xml"/> -->
-        <!-- <route-files value="right_turn_test_bike_flow.rou.xml"/> -->
+        <!-- <route-files value="pt_bike_car_pedestrian.rou.xml"/> -->
+        <!-- <route-files value="pt2_bike_car_pedestrian.rou.xml"/> -->
+        <route-files value="taxi_pt_bike_car_pedestrian.rou.xml"/>
+        <additional-files value="busStop.add.xml" />
     </input>
 
     <time>
