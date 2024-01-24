@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-12-06 13:17:27 by Eclipse SUMO netedit Version 1.18.0
+<!-- generated on 2024-01-23 14:31:33 by Eclipse SUMO netedit Version 1.18.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="/home/ludwig-20-04/sumo_ws/sumo_unity_bridge/sumoProject/tum_009.net.xml"/>
+        <sumo-net-file value="/home/ludwig-20-04/unity_ws/unity_tum_main_campus/Assets/SumoBridge/Sumo/sumoProject/tum_009.net.xml"/>
     </input>
 
     <output>
-        <output-file value="/home/ludwig-20-04/sumo_ws/sumo_unity_bridge/sumoProject/tum_009.net.xml"/>
+        <output-file value="/home/ludwig-20-04/unity_ws/unity_tum_main_campus/Assets/SumoBridge/Sumo/sumoProject/tum_009.net.xml"/>
     </output>
 
     <processing>
@@ -531,8 +531,8 @@
         <lane id=":74_0_1" index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="7.48" length="12.10" width="2.34" shape="257.63,489.24 255.83,486.20 253.62,484.42 251.02,483.88 248.03,484.60"/>
     </edge>
     <edge id=":74_2" function="internal">
-        <lane id=":74_2_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="17.88" length="18.77" width="2.40" shape="257.63,489.24 255.12,484.27 252.99,481.08 250.84,477.90 248.27,472.95"/>
-        <lane id=":74_2_1" index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="17.88" length="18.77" width="3.20" shape="257.63,489.24 250.82,471.80"/>
+        <lane id=":74_2_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="13.09" length="18.77" width="2.40" shape="257.63,489.24 255.12,484.27 252.99,481.08 250.84,477.90 248.27,472.95"/>
+        <lane id=":74_2_1" index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="13.09" length="18.77" width="3.20" shape="257.63,489.24 250.82,471.80"/>
     </edge>
     <edge id=":74_4" function="internal">
         <lane id=":74_4_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="6.89" length="10.44" width="3.22" shape="265.72,480.30 262.69,481.93 260.81,483.75 260.08,485.76 260.51,487.96"/>
@@ -551,8 +551,8 @@
         <lane id=":74_9_0" index="0" disallow="all" speed="7.56" length="12.71" width="3.20" shape="262.35,472.38 258.09,473.85 254.75,474.25 252.33,473.56 250.82,471.80"/>
     </edge>
     <edge id=":74_10" function="internal">
-        <lane id=":74_10_0" index="0" disallow="all" speed="17.88" length="18.83" width="2.34" shape="255.83,469.46 263.06,486.84"/>
-        <lane id=":74_10_1" index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="17.88" length="18.83" width="3.22" shape="253.32,470.54 260.51,487.96"/>
+        <lane id=":74_10_0" index="0" disallow="all" speed="13.09" length="18.83" width="2.34" shape="255.83,469.46 263.06,486.84"/>
+        <lane id=":74_10_1" index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="13.09" length="18.83" width="3.22" shape="253.32,470.54 260.51,487.96"/>
     </edge>
     <edge id=":74_12" function="internal">
         <lane id=":74_12_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="7.53" length="1.21" width="2.07" shape="253.32,470.54 253.45,471.75"/>
@@ -780,9 +780,9 @@
         <lane id="-40_5" index="5" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="17.88" length="87.90" width="2.07" shape="245.65,479.08 244.71,479.47 243.63,479.92 242.33,480.47 240.85,481.09 239.20,481.79 237.38,482.55 235.40,483.38 233.29,484.27 231.05,485.21 228.69,486.20 226.23,487.24 223.68,488.31 221.05,489.42 218.35,490.55 215.60,491.71 212.81,492.89 209.98,494.07 207.14,495.27 204.29,496.47 201.44,497.67 198.62,498.85 195.82,500.03 193.07,501.19 190.37,502.32 187.74,503.43 185.19,504.50 182.73,505.54 180.37,506.53 178.13,507.47 176.02,508.36 174.05,509.19 172.23,509.95 170.57,510.65 169.09,511.27 167.80,511.82 166.71,512.27 165.85,512.64 165.19,512.92 164.77,513.10 164.60,513.17" type="parking"/>
     </edge>
     <edge id="-41" from="74" to="41.end" priority="1" type="parking|driving" shape="258.10,486.47 282.56,542.00 283.72,544.64 305.80,594.23">
-        <lane id="-41_0" index="0" allow="pedestrian" speed="17.88" length="115.49" width="2.00" shape="265.04,485.96 288.56,539.36 289.72,541.99 311.79,591.56"/>
-        <lane id="-41_1" index="1" disallow="all" speed="17.88" length="115.49" width="2.34" shape="263.06,486.84 286.58,540.23 287.73,542.86 309.81,592.44" type="parking"/>
-        <lane id="-41_2" index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="17.88" length="115.49" width="3.22" shape="260.51,487.96 284.03,541.35 285.19,543.99 307.27,593.58" type="driving"/>
+        <lane id="-41_0" index="0" allow="pedestrian" speed="8.30" length="115.49" width="2.00" shape="265.04,485.96 288.56,539.36 289.72,541.99 311.79,591.56"/>
+        <lane id="-41_1" index="1" disallow="all" speed="8.30" length="115.49" width="2.34" shape="263.06,486.84 286.58,540.23 287.73,542.86 309.81,592.44" type="parking"/>
+        <lane id="-41_2" index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="8.30" length="115.49" width="3.22" shape="260.51,487.96 284.03,541.35 285.19,543.99 307.27,593.58" type="driving"/>
     </edge>
     <edge id="-42" from="6.42" to="42.24" priority="1" type="parking|driving|driving|parking" shape="222.90,227.53 260.12,212.08 260.27,212.02 260.74,211.82 260.89,211.76 296.95,196.83 297.22,196.72">
         <lane id="-42_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="17.88" length="75.02" width="2.39" shape="222.73,216.68 256.25,202.77 256.37,202.72 256.84,202.52 257.09,202.42 292.03,187.95" type="parking"/>
@@ -1042,9 +1042,9 @@
         <lane id="40_0" index="0" allow="pedestrian" speed="17.88" length="87.93" width="2.00" shape="163.78,511.30 163.99,511.22 164.40,511.05 165.05,510.77 165.92,510.40 167.01,509.95 168.30,509.40 169.78,508.78 171.44,508.08 173.26,507.32 175.23,506.49 177.34,505.60 179.58,504.66 181.94,503.67 184.40,502.63 186.95,501.56 189.58,500.45 192.28,499.32 195.03,498.16 197.83,496.98 200.65,495.80 203.50,494.60 206.35,493.40 209.19,492.20 212.02,491.02 214.81,489.84 217.56,488.68 220.26,487.55 222.89,486.44 225.44,485.37 227.90,484.33 230.26,483.34 232.50,482.40 234.61,481.51 236.59,480.68 238.41,479.92 240.06,479.22 241.54,478.60 242.84,478.05 243.92,477.60 244.84,477.21"/>
     </edge>
     <edge id="41" from="41.end" to="74" priority="1" type="parking|driving" shape="305.80,594.23 284.34,546.03 282.92,542.81 258.24,486.52">
-        <lane id="41_0" index="0" allow="pedestrian" speed="17.88" length="115.52" width="2.00" shape="300.20,596.72 278.74,548.52 277.31,545.28 253.53,491.04"/>
-        <lane id="41_1" index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="17.88" length="115.52" width="1.83" shape="301.95,595.94 280.49,547.74 279.06,544.51 255.28,490.27" type="parking"/>
-        <lane id="41_2" index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="17.88" length="115.52" width="3.30" shape="304.29,594.90 282.83,546.70 281.41,543.47 257.63,489.24" type="driving"/>
+        <lane id="41_0" index="0" allow="pedestrian" speed="8.30" length="115.52" width="2.00" shape="300.20,596.72 278.74,548.52 277.31,545.28 253.53,491.04"/>
+        <lane id="41_1" index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="8.30" length="115.52" width="1.83" shape="301.95,595.94 280.49,547.74 279.06,544.51 255.28,490.27" type="parking"/>
+        <lane id="41_2" index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="8.30" length="115.52" width="3.30" shape="304.29,594.90 282.83,546.70 281.41,543.47 257.63,489.24" type="driving"/>
     </edge>
     <edge id="45" from="186" to="56.45" priority="1" type="parking|driving" shape="533.84,77.90 533.50,77.11">
         <lane id="45_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="17.88" length="0.71" width="3.00" shape="529.52,79.76 529.24,79.11" type="parking"/>
