@@ -3,7 +3,7 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="tum_009.net.xml"/>
+        <net-file value="tum_009_TL.net.xml"/>
         <route-files value="single_trip_car.rou.xml"/>
         <!-- <route-files value="pedestrian_demand.rou.xml"/> -->
         <!-- <route-files value="right_turn_test_bike.rou.xml"/> -->
