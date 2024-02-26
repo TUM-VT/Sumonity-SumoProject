@@ -9,7 +9,7 @@
         <!-- <route-files value="right_turn_test_bike.rou.xml"/> -->
         <!-- <route-files value="pt_bike_car_pedestrian.rou.xml"/> -->
         <!-- <route-files value="pt2_bike_car_pedestrian.rou.xml"/> -->
-        <!-- <route-files value="taxi_pt_bike_car_pedestrian.rou.xml"/> -->
+        <route-files value="taxi_pt_bike_car_pedestrian.rou.xml"/>
         <additional-files value="busStop.add.xml" />
     </input>
 
