@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<!-- generated on 2023-11-24 14:15:59 by Eclipse SUMO netedit Version 1.18.0
--->
-
-<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
-    <!-- Vehicles, persons and containers (sorted by depart) -->
-    <flow id="f_5" type="DEFAULT_BIKETYPE" begin="0.00" from="-44" to="-41" end="3600.00" vehsPerHour="500.00"/>
-</routes>
