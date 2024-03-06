@@ -6,7 +6,7 @@
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <!-- VTypes -->
     <vType id="t_0" vClass="bus"/>
-    <vType id="egoBike" vClass="passenger"/>
+    <vType id="egoBike" vClass="passenger"/> <!-- don't change this to bicycle. The car takes more space and works with higher margins for safety -->
     <!-- Vehicles, persons and containers (sorted by depart) -->
     <route id="Bikerroute" edges="41 -32"/>
     <vehicle depart="0" id="bike1" route="Bikerroute" type="egoBike"/>
