@@ -14,11 +14,12 @@
 
     <time>
         <end value="3600"/>
-        <step-length value="0.1"/>
+        <step-length value="0.15"/>
     </time>
     
     <processing>
-        <lanechange.duration value="2" />
+	<carfollow.model value="Krauss"/>
+	<lateral-resolution value="0.5"/>
     </processing>
 
         
