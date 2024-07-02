@@ -5,9 +5,13 @@
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <!-- Ego vehicle -->
-    <vehicle id="bike1" type="DEFAULT_BIKETYPE" depart="0.00">
+    <vType id="type1" accel="10" decel="10" sigma="0.5" length="5" maxSpeed="70"/>
+    
+    
+    <vehicle id="bike1" type="type1" depart="0.00" insertionChecks="none">        
         <route edges="60#0"/>
     </vehicle>
+
     
     <!-- Routes -->
     <route id="r_0" edges="-241#0 -241#1 -241#2 -241#3 -4#0 -4#1 -4#2 -4#3 -4#4 -4#5 -4#6 -4#7 -4#8 -4#9 -4#10 -4#11 -4#12 -4#13 -4#14 -4#15 -4#16 -4#17 -57#0 -57#1 -120 -275 -238 -140 -246 -136 -80 -103#0 -103#1 -215#0 -215#1 -215#2 -247 -270 86 189 206#1 206#0 63#2 63#1 63#0 60#2 60#1 60#0 118 -109#0 -109#1 -106 -253 -55 -255#0 -255#1 -255#2 -255#3 -255#4 -255#5 -255#6 -114#0 -114#1 -145 -E5 -E4 -E3 E0 E1 E2 E6 -214 -290 -91 -245 -232 -101 -88 -139 -190 -82 -252"/>
