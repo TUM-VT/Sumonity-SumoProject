@@ -1,25 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-07-27 12:47:48 by Eclipse SUMO netedit Version 1.18.0
+<!-- generated on 2024-08-04 14:22:54 by Eclipse SUMO netedit Version 1.18.0
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <!-- VTypes -->
-    <vType id="DEFAULT_VEHTYPE" vClass="bus"/>
+    <vType id="DEFAULT_TAXITYPE" vClass="bus"/>
     <!-- Routes -->
-    <route id="r_0" edges="-102 -267 -148 -86 -114#0 -114#1 -239#0 -239#1 -239#2 -268 -295 -166#0 -166#1 -166#2 -166#3 -166#4 -166#5 -166#6 -166#7 -166#8 -166#9 -166#10 -29#0 -29#1 -29#2 -29#3 -29#4 -29#5 -77#0 -77#1 -77#2 -274 -122 -269 -26 -54 90 43 69 -271 -206 -297 -37 -65 -214 -144#0 -144#1 -144#2 -144#3 236#1 236#0 95 203 225 -227 -233 -151 226 68 130 -120#0 -120#1 -117 -277 -61 -280#0 -280#1 -280#2 -280#3 -280#4 -280#5 -280#6 -125#0 -125#1 -158 -279 5 -66 -266 -314 -127 -38 -36 -129 -216 -312 -28 -238 204 97 222 221 -257 -112 -99 -152 -300 -41" repeat="10" cycleTime="140.00">
-        <stop busStop="bs_6" duration="60.00"/>
-        <stop busStop="bs_8" duration="60.00"/>
-        <stop busStop="bs_3" duration="60.00"/>
-        <stop busStop="bs_1" duration="60.00"/>
+    <route id="r_0" edges="-102 -267 -148 -86 -114#0 -114#1 -239#0 -239#1 -239#2 -268 -295 -166#0 -166#1 -166#2 -166#3 -166#4 -166#5 -166#6 -166#7 -166#8 -166#9 -166#10 -29#0 -29#1 -29#2 -29#3 -29#4 -29#5 -77#0 -77#1 -77#2 -274 -122 -269 -26 -54 90 43 69 -271 -206 -297 -37 -65 -214 -144#0 -144#1 -144#2 -144#3 236#1 236#0 95 203 225 -227 -233 -151 226 68 130 -120#0 -120#1 -117 -277 -61 -280#0 -280#1 -280#2 -280#3 -280#4 -280#5 -280#6 -125#0 -125#1 -158 -279 5 -66 -266 -314 -127 -38 -36 -129 -216 -312 -28 -238 204 97 222 221 -257 -112 -99 -152 -300 -41" color="yellow" repeat="10" cycleTime="140.00">
+        <stop busStop="bs_6" duration="20.00"/>
+        <stop busStop="bs_8" duration="20.00"/>
+        <stop busStop="bs_3" duration="20.00"/>
+        <stop busStop="bs_1" duration="20.00"/>
     </route>
     <!-- Vehicles, persons and containers (sorted by depart) -->
-    <vehicle id="v_0" depart="0.00" route="r_0"/>
+    <vehicle id="v_0" type="DEFAULT_TAXITYPE" depart="0.00" route="r_0"/>
+    <flow id="f_0" begin="0.00" from="-1#0" to="106#0" number="100" vehsPerHour="200.00"/>
+    <flow id="f_1" begin="0.00" from="44" to="35" number="100" vehsPerHour="200.00"/>
+    <flow id="f_10" begin="0.00" from="124" to="273" number="100" vehsPerHour="200.00"/>
+    <flow id="f_11" begin="0.00" from="-23" to="-208" number="100" vehsPerHour="200.00"/>
+    <flow id="f_12" begin="0.00" from="208" to="223" number="100" vehsPerHour="200.00"/>
+    <flow id="f_13" type="DEFAULT_BIKETYPE" begin="0.00" from="-182#0" to="-161" number="100" vehsPerHour="200.00"/>
+    <flow id="f_14" type="DEFAULT_BIKETYPE" begin="0.00" from="44" to="35" number="100" vehsPerHour="200.00"/>
+    <flow id="f_15" type="DEFAULT_BIKETYPE" begin="0.00" from="-23" to="-208" number="100" vehsPerHour="200.00"/>
+    <flow id="f_16" type="DEFAULT_BIKETYPE" begin="0.00" from="159" to="273" number="100" vehsPerHour="200.00"/>
+    <flow id="f_17" type="DEFAULT_BIKETYPE" begin="0.00" from="-223" to="224" number="100" vehsPerHour="200.00"/>
+    <flow id="f_18" type="DEFAULT_BIKETYPE" begin="0.00" from="-155" to="-70" number="100" vehsPerHour="200.00"/>
+    <flow id="f_19" type="DEFAULT_BIKETYPE" begin="0.00" from="-224" to="223" number="100" vehsPerHour="200.00"/>
+    <flow id="f_2" begin="0.00" from="53" to="-278" number="100" vehsPerHour="200.00"/>
+    <flow id="f_20" type="DEFAULT_BIKETYPE" begin="0.00" from="278" to="-53" number="100" vehsPerHour="200.00"/>
+    <flow id="f_21" type="DEFAULT_BIKETYPE" begin="0.00" from="53" to="-278" number="100" vehsPerHour="200.00"/>
+    <flow id="f_22" type="DEFAULT_BIKETYPE" begin="0.00" from="-35" to="-44" number="100" vehsPerHour="200.00"/>
+    <flow id="f_23" type="DEFAULT_BIKETYPE" begin="0.00" from="-1#0" to="-161" via="106#0" number="100" vehsPerHour="200.00"/>
+    <flow id="f_3" begin="0.00" from="-224" to="223" number="100" vehsPerHour="200.00"/>
+    <flow id="f_4" begin="0.00" from="70" to="-62" number="100" vehsPerHour="200.00"/>
+    <flow id="f_5" begin="0.00" from="-182#0" to="-161" number="100" vehsPerHour="200.00"/>
+    <flow id="f_6" begin="0.00" from="62" to="-70" number="100" vehsPerHour="200.00"/>
+    <flow id="f_7" begin="0.00" from="-223" to="224" number="100" vehsPerHour="200.00"/>
+    <flow id="f_8" begin="0.00" from="278" to="-53" number="100" vehsPerHour="200.00"/>
+    <flow id="f_9" begin="0.00" from="-273" to="-124" number="100" vehsPerHour="200.00"/>
     <personFlow id="pf_0" begin="0.00" departPos="-20.00" end="3600.00" probability="0.05">
         <ride from="43" busStop="bs_1" lines="ANY"/>
-    </personFlow>
-    <personFlow id="pf_1" begin="0.00" end="3600.00" probability="0.05">
-        <ride from="-267" to="225" lines="ANY"/>
     </personFlow>
     <personFlow id="pf_2" begin="0.00" departPos="-20.00" end="3600.00" probability="0.05">
         <ride from="43" to="-267" lines="ANY"/>
