@@ -53,4 +53,5 @@
     <personFlow id="pf_2" begin="0.00" departPos="-20.00" end="3600.00" probability="0.05">
         <ride from="43" to="-267" lines="ANY"/>
     </personFlow>
+    <vehicle id="v_1" type="DEFAULT_TAXITYPE" depart="30.00" route="r_0"/>
 </routes>
