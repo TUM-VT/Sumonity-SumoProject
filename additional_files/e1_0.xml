@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-08-11 18:49:57 by Eclipse SUMO GUI Version 1.18.0
+<!-- generated on 2024-08-12 14:15:29 by Eclipse SUMO GUI Version 1.19.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -9,18 +9,3 @@
         <additional-files value="Assets/SumoBridge/Sumo/sumoProject/additional_files/tum_groupA.add.xml"/>
     </input>
 
-    <time>
-        <end value="3600"/>
-        <step-length value="0.1"/>
-    </time>
-
-    <traci_server>
-        <remote-port value="59978"/>
-        <num-clients value="1"/>
-    </traci_server>
-
-    <gui_only>
-        <start value="true"/>
-    </gui_only>
-
-</configuration>
