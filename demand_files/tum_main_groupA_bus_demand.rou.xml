@@ -21,8 +21,7 @@
         <stop busStop="bs_3" duration="20.00"/>
         <stop busStop="bs_1" duration="20.00"/>
     </route>
-    <!-- Vehicles, persons and containers (sorted by depart) -->
-    <vehicle id="v_0" type="DEFAULT_TAXITYPE" depart="0.00" route="r_0"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->   
     <flow id="f_0" begin="0.00" from="-1#0" to="106#0" number="100" vehsPerHour="200.00"/>
     <flow id="f_1" begin="0.00" from="44" to="35" number="100" vehsPerHour="200.00"/>
     <flow id="f_10" begin="0.00" from="124" to="273" number="100" vehsPerHour="200.00"/>

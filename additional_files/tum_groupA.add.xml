@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-08-05 11:06:24 by Eclipse SUMO netedit Version 1.18.0
+<!-- generated on 2024-08-11 18:54:51 by Eclipse SUMO netedit Version 1.18.0
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <!-- StoppingPlaces -->
-    <busStop id="bs_0" lane="-225_1" startPos="8.91" endPos="18.91"/>
+    <busStop id="bs_0" lane="233_0" startPos="18.64" endPos="28.64"/>
     <busStop id="bs_1" lane="-266_2" startPos="0.68" endPos="10.68"/>
     <busStop id="bs_2" lane="199_1" startPos="9.72" endPos="19.72"/>
-    <busStop id="bs_3" lane="225_1" startPos="10.90" endPos="20.90"/>
+    <busStop id="bs_3" lane="-233_0" startPos="8.16" endPos="18.16"/>
     <busStop id="bs_4" lane="97_1" startPos="11.48" endPos="21.48"/>
-    <busStop id="bs_5" lane="-244_2" startPos="5.60" endPos="15.60"/>
+    <busStop id="bs_5" lane="-244_2" startPos="4.60" endPos="14.60"/>
     <busStop id="bs_6" lane="-267_3" startPos="2.73" endPos="12.73"/>
     <busStop id="bs_8" lane="43_1" startPos="11.02" endPos="21.02"/>
+    <!-- Detectors -->
+    <inductionLoop id="e1_0" lane="-43_2" pos="26.79" period="300.00" file="e1_0.xml" vTypes="type1"/>
+    <inductionLoop id="e1_1" lane="-77#2_3" pos="8.68" period="300.00" file="e1_1.xml" vTypes="DEFAULT_TAXITYPE"/>
 </additional>
