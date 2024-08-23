@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-08-23 18:58:27 by Eclipse SUMO sumo Version 1.19.0
+<!-- generated on 2024-08-23 18:58:26 by Eclipse SUMO sumo Version 1.19.0
 -->
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="net_files/tum_main_groupA.net.xml"/>
-        <route-files value="demand_files/tum_main_groupA_test_demand.rou.xml"/>
-        <additional-files value="additional_files/tum_main_groupA.add.xml"/>
+        <net-file value="net_files/tum_main_groupB.net.xml"/>
+        <route-files value="demand_files/tum_main_groupB_demand.rou.xml"/>
+        <additional-files value="additional_files/tum_main_groupB_.add.xml"/>
     </input>
 
     <time>

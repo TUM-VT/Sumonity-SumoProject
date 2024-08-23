@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-08-23 18:58:26 by Eclipse SUMO netedit Version 1.19.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="DEFAULT_TAXITYPE" vClass="bus"/>
+    <vType id="type1" length="5.00" minGap="2.50" maxSpeed="70.00" vClass="bicycle" width="1.80" latAlignment="arbitrary" accel="10" decel="10" sigma="0.5"/>
+    <!-- Routes -->
+    <route id="r_0" edges="-93 -39"/>
+    <route id="r_1" edges="-29#1 -29#2 -29#3 -29#4 -29#5 -78#0 -78#1 -78#2 261 155 112 -99 -298 -245 -230 77 235 119 58 256 44 35">
+        <stop busStop="bs_5" duration="20.00"/>
+    </route>
+    <route id="r_10" edges="-6#16 -6#17 -64#0 -64#1 -133 -300 -41 -103 -267 -149 -149.53 -87 202 259">
+        <stop busStop="bs_6" duration="20.00"/>
+    </route>
+    <route id="r_11" edges="237#0.51 96 204 226 -234 227 69 131 -121#0 -121#1 -277">
+        <stop busStop="bs_3" duration="20.00"/>
+    </route>
+    <route id="r_2" edges="-0.120 -104 -131 -69 -227 234 -226 -204 -96 -237#0 -237#1 -54">
+        <stop busStop="bs_0" duration="20.00"/>
+    </route>
+    <route id="r_3" edges="-149.53 -87 -157 -49 -251#1 -216#1 -214 200 -84 -24 -289 -208 232 311 94">
+        <stop busStop="bs_2" duration="20.00"/>
+    </route>
+    <route id="r_4" edges="-280#6 -126#0 -126#1 -159 -279 5 -266 -128 -38 -36 -130 288 255">
+        <stop busStop="bs_1" duration="20.00"/>
+    </route>
+    <route id="r_5" edges="107#0 276 90 206 -300 -41 -103 -267 -149 -149.53 -87 202 259">
+        <stop busStop="bs_6" duration="20.00"/>
+    </route>
+    <route id="r_6" edges="298 99 -112 -155 -261 -274 -26 -55 91 43 -271 -207 -297 -37 -66 -215 -45">
+        <stop busStop="bs_8" duration="20.00"/>
+    </route>
+    <route id="r_7" edges="-268 -295 96 204 226 -234 227 69 131 104 0 00">
+        <stop busStop="bs_3" duration="20.00"/>
+    </route>
+    <route id="r_8" edges="-311 -232 -279 5 -266 -128 -38 -36 -130 -312 -28">
+        <stop busStop="bs_1" duration="20.00"/>
+    </route>
+    <route id="r_9" edges="-255.43 -288 -312 -28 -239 98 223 222 -113 -100 -206 -90 -276 -107#0 -107#1 -107#2 -179#0">
+        <stop busStop="bs_4" duration="20.00"/>
+    </route>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <vehicle id="bike1" type="type1" depart="0.00" departPos="0.00" insertionChecks="none">
+        <route edges="-102"/>
+    </vehicle>
+</routes>
