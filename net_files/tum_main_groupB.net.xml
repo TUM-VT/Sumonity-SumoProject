@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-08-23 18:58:25 by Eclipse SUMO netedit Version 1.19.0
+<!-- generated on 2024-08-26 10:46:47 by Eclipse SUMO netedit Version 1.19.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
@@ -3041,13 +3041,14 @@
         <lane id=":cluster465_cluster92.148_92.4_8_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="8.43" length="15.86" width="2.83" shape="820.90,678.09 825.95,676.51 829.97,676.34 832.96,677.58 834.93,680.23"/>
     </edge>
     <edge id=":cluster56.151_cluster97.151_cluster156.end_97.begin_0" function="internal">
-        <lane id=":cluster56.151_cluster97.151_cluster156.end_97.begin_0_0" index="0" allow="pedestrian" speed="17.88" length="5.88" width="2.00" shape="608.98,179.12 608.75,177.50 609.22,176.28 609.70,175.07 609.46,173.45"/>
-        <lane id=":cluster56.151_cluster97.151_cluster156.end_97.begin_0_1" index="1" allow="bicycle" speed="17.88" length="5.88" width="2.04" shape="610.84,178.33 610.61,176.71 611.08,175.50 611.56,174.28 611.32,172.66"/>
+        <lane id=":cluster56.151_cluster97.151_cluster156.end_97.begin_0_0" index="0" allow="pedestrian" speed="17.88" length="5.60" width="2.00" shape="608.98,179.12 608.75,177.50 609.22,176.28 609.70,175.07 609.46,173.45"/>
+        <lane id=":cluster56.151_cluster97.151_cluster156.end_97.begin_0_1" index="1" allow="bicycle" speed="17.88" length="5.60" width="2.04" shape="610.84,178.33 610.61,176.71 611.08,175.50 611.56,174.28 611.32,172.66"/>
+        <lane id=":cluster56.151_cluster97.151_cluster156.end_97.begin_0_2" index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="17.88" length="5.60" width="2.82" shape="613.36,177.26 611.68,172.51"/>
     </edge>
-    <edge id=":cluster56.151_cluster97.151_cluster156.end_97.begin_2" function="internal">
-        <lane id=":cluster56.151_cluster97.151_cluster156.end_97.begin_2_0" index="0" allow="pedestrian" speed="17.88" length="5.15" width="2.00" shape="617.30,170.12 618.08,171.44 618.89,172.18 619.71,172.92 620.49,174.24"/>
-        <lane id=":cluster56.151_cluster97.151_cluster156.end_97.begin_2_1" index="1" allow="bicycle" speed="17.88" length="5.15" width="1.00" shape="615.92,170.71 616.63,172.04 617.32,172.85 618.00,173.66 618.71,174.99"/>
-        <lane id=":cluster56.151_cluster97.151_cluster156.end_97.begin_2_2" index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="17.88" length="5.15" width="3.17" shape="614.22,171.43 616.40,175.97"/>
+    <edge id=":cluster56.151_cluster97.151_cluster156.end_97.begin_3" function="internal">
+        <lane id=":cluster56.151_cluster97.151_cluster156.end_97.begin_3_0" index="0" allow="pedestrian" speed="17.88" length="5.15" width="2.00" shape="617.30,170.12 618.08,171.44 618.89,172.18 619.71,172.92 620.49,174.24"/>
+        <lane id=":cluster56.151_cluster97.151_cluster156.end_97.begin_3_1" index="1" allow="bicycle" speed="17.88" length="5.15" width="1.00" shape="615.92,170.71 616.63,172.04 617.32,172.85 618.00,173.66 618.71,174.99"/>
+        <lane id=":cluster56.151_cluster97.151_cluster156.end_97.begin_3_2" index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="17.88" length="5.15" width="3.17" shape="614.22,171.43 616.40,175.97"/>
     </edge>
     <edge id=":cluster62.277_62.280_0" function="internal">
         <lane id=":cluster62.277_62.280_0_0" index="0" allow="pedestrian" speed="17.88" length="7.91" width="2.00" shape="363.21,456.88 355.92,459.94"/>
@@ -7821,12 +7822,13 @@
         <request index="7" response="000000100" foes="000000100" cont="0"/>
         <request index="8" response="000110100" foes="000110100" cont="0"/>
     </junction>
-    <junction id="cluster56.151_cluster97.151_cluster156.end_97.begin" type="priority" x="614.14" y="174.71" incLanes="56_0 56_1 56_2 -156_0 -156_1 -156_2" intLanes=":cluster56.151_cluster97.151_cluster156.end_97.begin_0_0 :cluster56.151_cluster97.151_cluster156.end_97.begin_0_1 :cluster56.151_cluster97.151_cluster156.end_97.begin_2_0 :cluster56.151_cluster97.151_cluster156.end_97.begin_2_1 :cluster56.151_cluster97.151_cluster156.end_97.begin_2_2" shape="608.06,179.51 621.41,173.85 620.36,172.25 619.27,171.33 618.74,170.70 618.22,169.73 608.54,173.85 608.67,175.89 607.94,177.46 607.79,178.36">
-        <request index="0" response="00000" foes="00000" cont="0"/>
-        <request index="1" response="00000" foes="00000" cont="0"/>
-        <request index="2" response="00000" foes="00000" cont="0"/>
-        <request index="3" response="00000" foes="00000" cont="0"/>
-        <request index="4" response="00000" foes="00000" cont="0"/>
+    <junction id="cluster56.151_cluster97.151_cluster156.end_97.begin" type="priority" x="614.14" y="174.71" incLanes="56_0 56_1 56_2 -156_0 -156_1 -156_2" intLanes=":cluster56.151_cluster97.151_cluster156.end_97.begin_0_0 :cluster56.151_cluster97.151_cluster156.end_97.begin_0_1 :cluster56.151_cluster97.151_cluster156.end_97.begin_0_2 :cluster56.151_cluster97.151_cluster156.end_97.begin_3_0 :cluster56.151_cluster97.151_cluster156.end_97.begin_3_1 :cluster56.151_cluster97.151_cluster156.end_97.begin_3_2" shape="608.06,179.51 621.41,173.85 620.36,172.25 619.27,171.33 618.74,170.70 618.22,169.73 608.54,173.85 608.67,175.89 607.94,177.46 607.79,178.36">
+        <request index="0" response="000000" foes="000000" cont="0"/>
+        <request index="1" response="000100" foes="000100" cont="0"/>
+        <request index="2" response="000000" foes="000010" cont="0"/>
+        <request index="3" response="000000" foes="000000" cont="0"/>
+        <request index="4" response="000000" foes="000000" cont="0"/>
+        <request index="5" response="000000" foes="000000" cont="0"/>
     </junction>
     <junction id="cluster62.277_62.280" type="priority" x="358.08" y="455.00" incLanes="280#0_0 -277_0 -277_1 -277_2 -277_3" intLanes=":cluster62.277_62.280_0_0 :cluster62.277_62.280_1_0 :cluster62.277_62.280_1_1 :cluster62.277_62.280_1_2 :cluster62.277_62.280_1_3" shape="363.60,457.80 357.73,443.69 355.18,445.45 354.49,446.39 353.79,447.34 352.81,448.26 351.26,449.13 356.31,460.86">
         <request index="0" response="00000" foes="00000" cont="0"/>
@@ -8077,9 +8079,9 @@
     <connection from="-154" to="-2" fromLane="3" toLane="3" via=":390_4_1" dir="s" state="m"/>
     <connection from="-155" to="-261" fromLane="0" toLane="0" via=":261.155_3_0" dir="s" state="M"/>
     <connection from="-155" to="-261" fromLane="2" toLane="1" via=":261.155_3_1" dir="s" state="M"/>
-    <connection from="-156" to="-56" fromLane="0" toLane="0" via=":cluster56.151_cluster97.151_cluster156.end_97.begin_2_0" dir="s" state="M"/>
-    <connection from="-156" to="-56" fromLane="1" toLane="1" via=":cluster56.151_cluster97.151_cluster156.end_97.begin_2_1" dir="s" state="M"/>
-    <connection from="-156" to="-56" fromLane="2" toLane="2" via=":cluster56.151_cluster97.151_cluster156.end_97.begin_2_2" dir="s" state="M"/>
+    <connection from="-156" to="-56" fromLane="0" toLane="0" via=":cluster56.151_cluster97.151_cluster156.end_97.begin_3_0" dir="s" state="M"/>
+    <connection from="-156" to="-56" fromLane="1" toLane="1" via=":cluster56.151_cluster97.151_cluster156.end_97.begin_3_1" dir="s" state="M"/>
+    <connection from="-156" to="-56" fromLane="2" toLane="2" via=":cluster56.151_cluster97.151_cluster156.end_97.begin_3_2" dir="s" state="M"/>
     <connection from="-157" to="-49" fromLane="0" toLane="0" via=":49.157_0_0" dir="s" state="M"/>
     <connection from="-157" to="-49" fromLane="2" toLane="2" via=":49.157_0_1" dir="s" state="M"/>
     <connection from="-157" to="-49" fromLane="3" toLane="3" via=":49.157_0_2" dir="s" state="M"/>
@@ -9335,7 +9337,8 @@
     <connection from="55" to="26" fromLane="1" toLane="1" via=":55.26_0_1" dir="s" state="M"/>
     <connection from="55" to="26" fromLane="2" toLane="2" via=":55.26_0_2" dir="s" state="M"/>
     <connection from="56" to="156" fromLane="0" toLane="0" via=":cluster56.151_cluster97.151_cluster156.end_97.begin_0_0" dir="s" state="M"/>
-    <connection from="56" to="156" fromLane="1" toLane="1" via=":cluster56.151_cluster97.151_cluster156.end_97.begin_0_1" dir="s" state="M"/>
+    <connection from="56" to="156" fromLane="1" toLane="1" via=":cluster56.151_cluster97.151_cluster156.end_97.begin_0_1" dir="s" state="m"/>
+    <connection from="56" to="156" fromLane="2" toLane="1" via=":cluster56.151_cluster97.151_cluster156.end_97.begin_0_2" dir="s" state="M"/>
     <connection from="57" to="290#1" fromLane="0" toLane="0" via=":57.290_0_0" dir="s" state="M"/>
     <connection from="57" to="290#1" fromLane="1" toLane="1" via=":57.290_0_1" dir="s" state="M"/>
     <connection from="57" to="290#1" fromLane="2" toLane="2" via=":57.290_0_2" dir="s" state="M"/>
@@ -10966,9 +10969,10 @@
     <connection from=":cluster465_cluster92.148_92.4_8" to="-179#0" fromLane="0" toLane="2" dir="l" state="M"/>
     <connection from=":cluster56.151_cluster97.151_cluster156.end_97.begin_0" to="156" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":cluster56.151_cluster97.151_cluster156.end_97.begin_0" to="156" fromLane="1" toLane="1" dir="s" state="M"/>
-    <connection from=":cluster56.151_cluster97.151_cluster156.end_97.begin_2" to="-56" fromLane="0" toLane="0" dir="s" state="M"/>
-    <connection from=":cluster56.151_cluster97.151_cluster156.end_97.begin_2" to="-56" fromLane="1" toLane="1" dir="s" state="M"/>
-    <connection from=":cluster56.151_cluster97.151_cluster156.end_97.begin_2" to="-56" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":cluster56.151_cluster97.151_cluster156.end_97.begin_0" to="156" fromLane="2" toLane="1" dir="s" state="M"/>
+    <connection from=":cluster56.151_cluster97.151_cluster156.end_97.begin_3" to="-56" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":cluster56.151_cluster97.151_cluster156.end_97.begin_3" to="-56" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":cluster56.151_cluster97.151_cluster156.end_97.begin_3" to="-56" fromLane="2" toLane="2" dir="s" state="M"/>
     <connection from=":cluster62.277_62.280_0" to="277" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":cluster62.277_62.280_1" to="-280#0" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":cluster62.277_62.280_1" to="-280#0" fromLane="1" toLane="2" dir="s" state="M"/>
