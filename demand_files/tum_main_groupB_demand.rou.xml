@@ -10,47 +10,47 @@
     <!-- Routes -->
     <route id="r_0" edges="-93 -39"/>
     <route id="r_1" edges="-29#1 -29#2 -29#3 -29#4 -29#5 -78#0 -78#1 -78#2 261 155 112 -99 -298 -245 -230 77 235 119 58 256 44 35">
-        <stop busStop="bs_5" duration="20.00"/>
+        <stop busStop="bs_5" duration="40.00"/>
     </route>
     <route id="r_10" edges="-6#16 -6#17 -64#0 -64#1 -133 -300 -41 -103 -267 -149 -149.53 -87 202 259">
-        <stop busStop="bs_6" duration="20.00"/>
+        <stop busStop="bs_6" duration="40.00"/>
     </route>
     <route id="r_11" edges="237#0.51 96 204 226 -234 227 69 131 -121#0 -121#1 -277">
-        <stop busStop="bs_3" duration="20.00"/>
+        <stop busStop="bs_3" duration="40.00"/>
     </route>
     <route id="r_1_pedestrian" edges="-29#4 -29#5 -78#0 -78#1 -78#2 -274 -26 -55 43 -271 -207 -297 -37 -66 -215 -145#0"/>
     <route id="r_1_traffic" edges="-35 -44 -256 -58 -119 -235 -77 230 245 298 99 -112 -155 -261 -46 -210 -162"/>
     <route id="r_2" edges="-0.120 -104 -131 -69 -227 234 -226 -204 -96 -237#0 -237#1 -54">
-        <stop busStop="bs_0" duration="20.00"/>
+        <stop busStop="bs_0" duration="40.00"/>
     </route>
     <route id="r_2_pedestrian" edges="246#0 161 -312 -28 -239 98 223 222 -113 -100 133 64#1 64#0 6#17"/>
     <route id="r_3" edges="-149.53 -87 -157 -49 -251#1 -216#1 -214 200 -84 -24 -289 -208 232 311 94">
-        <stop busStop="bs_2" duration="20.00"/>
+        <stop busStop="bs_2" duration="40.00"/>
     </route>
     <route id="r_3_pedestrian" edges="115#1 115#0 -157 -49 -251#1 -216#1 -214 200 -84 -24 -289 -208 159 126#1 126#0"/>
     <route id="r_3_traffic" edges="54 237#1 237#0 237#0.51 96 204 226 -234 227 69 131 104 0 00"/>
     <route id="r_4" edges="-280#6 -126#0 -126#1 -159 -279 5 -266 -128 -38 -36 -130 288 255">
-        <stop busStop="bs_1" duration="20.00"/>
+        <stop busStop="bs_1" duration="40.00"/>
     </route>
     <route id="r_4_traffic" edges="-0 -0.120 -104 -131 -69 -227 234 -226 -204 -96 -237#0 -237#1 -54"/>
     <route id="r_5" edges="107#0 276 90 206 -300 -41 -103 -267 -149 -149.53 -87 202 259">
-        <stop busStop="bs_6" duration="20.00"/>
+        <stop busStop="bs_6" duration="40.00"/>
     </route>
     <route id="r_5_traffic" edges="-224 -48 -89 -94 -311 -232 208 289 24 84 -200 214 216#1 251#1 49 157 202 259 225"/>
     <route id="r_6" edges="245 298 99 -112 -155 -261 -274 -26 -55 43 -271 -207 -297 -37 -66 -215 -45">
-        <stop busStop="bs_8" duration="60.00"/>
+        <stop busStop="bs_8" duration="40.00"/>
     </route>
     <route id="r_6_traffic" edges="-224 -48 -89 -94 -311 -232 208 289 24 84 -200 214 216#1 251#1 49 157 87 149 1490 267 103 41 300 100 113 -222 -223 -98 239 28 312 288 255 56 156 -68 -310 -63"/>
     <route id="r_7" edges="-268 -295 96 204 226 -234 227 69 131 104 0 00">
-        <stop busStop="bs_3" duration="20.00"/>
+        <stop busStop="bs_3" duration="40.00"/>
     </route>
     <route id="r_7_traffic" edges="296 179#2 179#1 179#0 107#2 107#1 107#0 276 90 206 100 113 -222 -223 -98 239 28 312 130 36 38 128 266 -5 279 208 289 24 84 -200 214 216#1 251#1 49 157 202 259 225"/>
     <route id="r_8" edges="-311 -232 -279 5 -266 -128 -38 -36 -130 -312 -28">
-        <stop busStop="bs_1" duration="20.00"/>
+        <stop busStop="bs_1" duration="40.00"/>
     </route>
     <route id="r_8_traffic" edges="45 215 66 37 297 207 271 -43 55 26 274 -46 -210 -162"/>
     <route id="r_9" edges="-255.43 -288 -312 -28 -239 98 223 222 -113 -100 -206 -90 -276 -107#0 -107#1 -107#2 -179#0">
-        <stop busStop="bs_4" duration="20.00"/>
+        <stop busStop="bs_4" duration="40.00"/>
     </route>
     <!-- Vehicles, persons and containers (sorted by depart) -->
     <vehicle id="bike1" type="type1" depart="0.00" departPos="0.00" insertionChecks="none">
