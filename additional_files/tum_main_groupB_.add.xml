@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-08-29 21:17:25 by Eclipse SUMO netedit Version 1.19.0
+<!-- generated on 2024-08-31 17:23:07 by Eclipse SUMO netedit Version 1.18.0
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <!-- StoppingPlaces -->
-    <busStop id="bs_0" lane="234_1" startPos="17.87" endPos="27.87"/>
+    <busStop id="bs_0" lane="234_1" startPos="12.12" endPos="22.12"/>
     <busStop id="bs_1" lane="-266_1" startPos="1.09" endPos="11.09"/>
     <busStop id="bs_2" lane="200_2" startPos="12.08" endPos="22.08"/>
     <busStop id="bs_3" lane="-234_1" startPos="10.10" endPos="20.10"/>
     <busStop id="bs_4" lane="98_2" startPos="14.77" endPos="24.77"/>
-    <busStop id="bs_5" lane="-245_1" startPos="4.24" endPos="14.24"/>
-    <busStop id="bs_6" lane="-267_1" startPos="4.25" endPos="14.25"/>
+    <busStop id="bs_5" lane="-245_1" startPos="6.01" endPos="16.01"/>
+    <busStop id="bs_6" lane="-267_1" startPos="3.79" endPos="13.79"/>
     <busStop id="bs_8" lane="43_2" startPos="8.67" endPos="18.67"/>
     <!-- Detectors -->
     <inductionLoop id="e1_0" lane="-43_2" pos="23.60" period="300.00" file="e1_0_groupB.xml" vTypes="type1"/>
-    <inductionLoop id="e1_1" lane="-78#2_3" pos="18.83" period="300.00" file="e1_1_groupB.xml" vTypes="DEFAULT_TAXITYPE"/>
-    <inductionLoop id="e1_10" lane="-29#5_2" pos="0.97" period="300.00" file="e1_10_groupB.xml" vTypes="type1"/>
-    <inductionLoop id="e1_11" lane="-261_1" pos="4.15" period="300.00" file="e1_11_groupB.xml" vTypes="DEFAULT_TAXITYPE"/>
+    <inductionLoop id="e1_1" lane="-78#2_3" pos="17.72" period="300.00" file="e1_1_groupB.xml" vTypes="DEFAULT_TAXITYPE"/>
+    <inductionLoop id="e1_10" lane="-29#5_2" pos="0.63" period="300.00" file="e1_10_groupB.xml" vTypes="type1"/>
+    <inductionLoop id="e1_11" lane="-261_1" pos="4.03" period="300.00" file="e1_11_groupB.xml" vTypes="DEFAULT_TAXITYPE"/>
     <inductionLoop id="e1_12" lane="237#0.51_2" pos="12.56" period="300.00" file="e1_12_groupB.xml" vTypes="type1"/>
-    <inductionLoop id="e1_13" lane="-295_3" pos="37.32" period="300.00" file="e1_13_groupB.xml" vTypes="DEFAULT_TAXITYPE"/>
-    <inductionLoop id="e1_14" lane="-126#0_2" pos="0.29" period="300.00" file="e1_14_groupB.xml" vTypes="type1"/>
-    <inductionLoop id="e1_15" lane="-232_3" pos="20.55" period="300.00" file="e1_15_groupB.xml" vTypes="DEFAULT_TAXITYPE"/>
+    <inductionLoop id="e1_13" lane="-295_3" pos="37.90" period="300.00" file="e1_13_groupB.xml" vTypes="DEFAULT_TAXITYPE"/>
+    <inductionLoop id="e1_14" lane="-126#0_2" pos="0.54" period="300.00" file="e1_14_groupB.xml" vTypes="type1"/>
+    <inductionLoop id="e1_15" lane="-232_3" pos="16.52" period="300.00" file="e1_15_groupB.xml" vTypes="DEFAULT_TAXITYPE"/>
     <inductionLoop id="e1_16" lane="-311_0" pos="19.21" period="300.00" file="e1_16_groupB.xml" vTypes="type1"/>
-    <inductionLoop id="e1_17" lane="-38_2" pos="39.64" period="300.00" file="e1_17_groupB.xml" vTypes="type1"/>
+    <inductionLoop id="e1_17" lane="-38_2" pos="39.57" period="300.00" file="e1_17_groupB.xml" vTypes="type1"/>
     <inductionLoop id="e1_18" lane="-288_1" pos="12.92" period="300.00" file="e1_18_groupB.xml" vTypes="DEFAULT_TAXITYPE"/>
     <inductionLoop id="e1_19" lane="-100_1" pos="2.50" period="300.00" file="e1_19_groupB.xml" vTypes="type1"/>
     <inductionLoop id="e1_2" lane="-165#1_2" pos="2.86" period="300.00" file="e1_2_groupB.xml" vTypes="type1"/>
-    <inductionLoop id="e1_20" lane="-133_2" pos="0.05" period="300.00" file="e1_8_groupB.xml" vTypes="DEFAULT_TAXITYPE"/>
+    <inductionLoop id="e1_20" lane="-133_2" pos="0.57" period="300.00" file="e1_8_groupB.xml" vTypes="DEFAULT_TAXITYPE"/>
     <inductionLoop id="e1_21" lane="-295_2" pos="1.07" period="300.00" file="e1_21_groupB.xml" vTypes="type1"/>
     <inductionLoop id="e1_22" lane="237#0.51_2" pos="53.11" period="300.00" file="e1_22_groupB.xml" vTypes="DEFAULT_TAXITYPE"/>
     <inductionLoop id="e1_3" lane="-104_2" pos="26.89" period="300.00" file="e1_3_groupB.xml" vTypes="DEFAULT_TAXITYPE"/>
     <inductionLoop id="e1_4" lane="-259_2" pos="67.55" period="300.00" file="e1_4_groupB.xml" vTypes="type1"/>
     <inductionLoop id="e1_5" lane="-87_3" pos="14.76" period="300.00" file="e1_5_groupB.xml" vTypes="DEFAULT_TAXITYPE"/>
     <inductionLoop id="e1_6" lane="-289_2" pos="0.14" period="300.00" file="e1_6_groupB.xml" vTypes="type1"/>
-    <inductionLoop id="e1_7" lane="-159_3" pos="10.48" period="300.00" file="e1_7_groupB.xml" vTypes="type1"/>
+    <inductionLoop id="e1_7" lane="-159_3" pos="10.08" period="300.00" file="e1_7_groupB.xml" vTypes="type1"/>
     <inductionLoop id="e1_8" lane="-6#17_2" pos="0.22" period="300.00" file="e1_8_groupB.xml" vTypes="type1"/>
     <inductionLoop id="e1_9" lane="206_1" pos="0.10" period="300.00" file="e1_9_groupB.xml" vTypes="DEFAULT_TAXITYPE"/>
 </additional>
