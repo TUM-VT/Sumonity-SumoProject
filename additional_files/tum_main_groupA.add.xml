@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-08-31 17:43:41 by Eclipse SUMO netedit Version 1.18.0
+<!-- generated on 2024-09-04 11:45:11 by Eclipse SUMO netedit Version 1.19.0
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
@@ -9,7 +9,7 @@
     <busStop id="bs_1" lane="-266_2" startPos="0.68" endPos="10.68"/>
     <busStop id="bs_2" lane="199_1" startPos="9.72" endPos="19.72"/>
     <busStop id="bs_3" lane="-233_1" startPos="8.16" endPos="18.16"/>
-    <busStop id="bs_4" lane="97_1" startPos="11.48" endPos="21.48"/>
+    <busStop id="bs_4" lane="97_1" startPos="10.12" endPos="20.12"/>
     <busStop id="bs_5" lane="-244_2" startPos="4.60" endPos="14.60"/>
     <busStop id="bs_6" lane="-267_3" startPos="1.89" endPos="11.89"/>
     <busStop id="bs_8" lane="43_1" startPos="9.82" endPos="19.82"/>
@@ -23,7 +23,7 @@
     <inductionLoop id="e1_14" lane="-280#6_2" pos="5.81" period="300.00" file="e1_14_groupA.xml" vTypes="type1" friendlyPos="1"/>
     <inductionLoop id="e1_15" lane="-231_3" pos="23.43" period="300.00" file="e1_15_groupA.xml" vTypes="DEFAULT_TAXITYPE"/>
     <inductionLoop id="e1_16" lane="-311_0" pos="21.00" period="300.00" file="e1_16_groupA.xml" vTypes="type1"/>
-    <inductionLoop id="e1_17" lane="-38_2" pos="34.46" period="300.00" file="e1_17_groupA.xml" vTypes="type1"/>
+    <inductionLoop id="e1_17" lane="-38_2" pos="33.17" period="300.00" file="e1_17_groupA.xml" vTypes="type1"/>
     <inductionLoop id="e1_18" lane="-288_2" pos="5.74" period="300.00" file="e1_18_groupA.xml" vTypes="DEFAULT_TAXITYPE"/>
     <inductionLoop id="e1_19" lane="-112_1" pos="17.55" period="300.00" file="e1_19_groupA.xml" vTypes="type1"/>
     <inductionLoop id="e1_2" lane="-164#1_2" pos="2.58" period="300.00" file="e1_2_groupA.xml" vTypes="type1"/>

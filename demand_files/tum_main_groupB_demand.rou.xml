@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-08-31 11:51:16 by Eclipse SUMO netedit Version 1.18.0
+<!-- generated on 2024-09-04 11:38:17 by Eclipse SUMO netedit Version 1.19.0
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
@@ -56,14 +56,13 @@
     <vehicle id="bike1" type="type1" depart="0.00" departPos="0.00" insertionChecks="none">
         <route edges="-38"/>
     </vehicle>
-    <flow id="f_0" begin="0.00" route="r_8_traffic" end="3600.00" probability="0.05"/>
-    <flow id="f_1" begin="0.00" route="r_1_traffic" end="3600.00" probability="0.05"/>
-    <flow id="f_1_pedestrian" type="DEFAULT_PEDTYPE" begin="0.00" route="r_1_pedestrian" end="3600.00" vehsPerHour="200.00"/>
-    <flow id="f_2" begin="0.00" route="r_3_traffic" end="3600.00" probability="0.05"/>
-    <flow id="f_2_pedestrian" type="DEFAULT_PEDTYPE" begin="0.00" route="r_2_pedestrian" end="3600.00" vehsPerHour="200.00"/>
-    <flow id="f_3" begin="0.00" route="r_4_traffic" end="3600.00" probability="0.05"/>
-    <flow id="f_3_pedestrian" type="DEFAULT_PEDTYPE" begin="0.00" route="r_3_pedestrian" end="3600.00" vehsPerHour="200.00"/>
-    <flow id="f_4" begin="0.00" route="r_6_traffic" end="3600.00" probability="0.05"/>
-    <flow id="f_5" begin="0.00" route="r_7_traffic" end="3600.00" probability="0.05"/>
-    <flow id="f_6" begin="0.00" route="r_6_traffic" end="3600.00" probability="0.05"/>
+    <flow id="f_0" begin="0.00" route="r_8_traffic" end="3600.00" probability="0.05000000000000000278"/>
+    <flow id="f_1" begin="0.00" route="r_1_traffic" end="3600.00" probability="0.05000000000000000278"/>
+    <flow id="f_1_pedestrian" type="DEFAULT_PEDTYPE" begin="0.00" route="r_1_pedestrian" end="3600.00" vehsPerHour="200"/>
+    <flow id="f_2" begin="0.00" route="r_3_traffic" end="3600.00" probability="0.05000000000000000278"/>
+    <flow id="f_2_pedestrian" type="DEFAULT_PEDTYPE" begin="0.00" route="r_2_pedestrian" end="3600.00" vehsPerHour="200"/>
+    <flow id="f_3" begin="0.00" route="r_4_traffic" end="3600.00" probability="0.05000000000000000278"/>
+    <flow id="f_3_pedestrian" type="DEFAULT_PEDTYPE" begin="0.00" route="r_3_pedestrian" end="3600.00" vehsPerHour="200"/>
+    <flow id="f_4" begin="0.00" route="r_6_traffic" end="3600.00" probability="0.05000000000000000278"/>
+    <flow id="f_5" begin="0.00" route="r_7_traffic" end="3600.00" probability="0.05000000000000000278"/>
 </routes>
