@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-09-06 16:22:17 by Eclipse SUMO netedit Version 1.19.0
+<!-- generated on 2024-09-10 09:59:21 by Eclipse SUMO netedit Version 1.19.0
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <!-- VTypes -->
     <vType id="DEFAULT_TAXITYPE" vClass="bus"/>
-    <vType id="type1" length="5.00" minGap="2.50" maxSpeed="70.00" vClass="bicycle" width="1.80" latAlignment="arbitrary" accel="10" decel="10" sigma="0.5"/>
+    <vType id="type1" length="5.00" minGap="3.00" maxSpeed="70.00" vClass="bicycle" width="1.80" latAlignment="arbitrary" accel="10" decel="10" sigma="0.5"/>
     <!-- Routes -->
     <route id="r_0" edges="47 223"/>
     <route id="r_1" edges="-77#0 -77#1 -77#2 261 154 111 -98 -298 -244 -229 76 234 118 57 258 35">
@@ -60,6 +60,6 @@
     <flow id="f_2" begin="0.00" route="r_6_traffic" end="3600.00" probability="0.05000000000000000278"/>
     <flow id="f_2_pedestrian" type="DEFAULT_PEDTYPE" begin="0.00" route="r_2_pedestrian" end="3600.00" vehsPerHour="200"/>
     <flow id="f_3" begin="0.00" route="r_5_traffic" end="3600.00" probability="0.05000000000000000278"/>
-    <flow id="f_4" begin="0.00" route="r_2_traffic" end="3600.00" probability="0.05000000000000000278"/>
-    <flow id="f_5" begin="0.00" route="r_12" end="3600.00" probability="0.05000000000000000278"/>
+    <flow id="f_4" begin="0.00" departEdge="0" route="r_2_traffic" end="3600.00" probability="0.05000000000000000278"/>
+    <flow id="f_5" begin="0.00" departEdge="0" route="r_12" end="3600.00" probability="0.05000000000000000278"/>
 </routes>

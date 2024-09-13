@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-09-06 16:19:35 by Eclipse SUMO netedit Version 1.19.0
+<!-- generated on 2024-09-13 17:47:55 by Eclipse SUMO netedit Version 1.19.0
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
@@ -29,7 +29,7 @@
     <inductionLoop id="e1_2" lane="-165#0_2" pos="1.11" period="300.00" file="e1_2_groupB.xml" vTypes="type1"/>
     <inductionLoop id="e1_20" lane="-133_2" pos="0.57" period="300.00" file="e1_8_groupB.xml" vTypes="DEFAULT_TAXITYPE"/>
     <inductionLoop id="e1_21" lane="-268_2" pos="9.96" period="300.00" file="e1_21_groupB.xml" vTypes="type1"/>
-    <inductionLoop id="e1_22" lane="237#0.51_2" pos="53.11" period="300.00" file="e1_22_groupB.xml" vTypes="DEFAULT_TAXITYPE"/>
+    <inductionLoop id="e1_22" lane="237#0.51_2" pos="51.48" period="300.00" file="e1_22_groupB.xml" vTypes="DEFAULT_TAXITYPE" friendlyPos="1"/>
     <inductionLoop id="e1_3" lane="-104_2" pos="27.06" period="300.00" file="e1_3_groupB.xml" vTypes="DEFAULT_TAXITYPE"/>
     <inductionLoop id="e1_4" lane="-259_2" pos="51.55" period="300.00" file="e1_4_groupB.xml" vTypes="type1"/>
     <inductionLoop id="e1_5" lane="-87_3" pos="14.76" period="300.00" file="e1_5_groupB.xml" vTypes="DEFAULT_TAXITYPE"/>
