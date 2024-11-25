@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-11-19 16:44:33 by Eclipse SUMO sumo Version 1.17.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="net_files/tum_main_groupB.net.xml"/>
+        <route-files value="demand_files/test_opensource_soma.rou.xml"/>
+        <additional-files value="additional_files/tum_main_groupB_.add.xml"/>
+    </input>
+
+    <time>
+        <end value="3600"/>
+        <step-length value="0.1"/>
+    </time>
+
+</configuration>
