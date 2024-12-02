@@ -8,7 +8,6 @@
     <input>
         <net-file value="net_files/tum_main_groupB.net.xml"/>
         <route-files value="demand_files/test_opensource_soma.rou.xml"/>
-        <additional-files value="additional_files/tum_main_groupB_.add.xml"/>
     </input>
 
     <time>
