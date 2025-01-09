@@ -10,4 +10,13 @@
         <route-files value="demand_files/test_demand_opensource.rou.xml"/>
     </input>
 
+    <time>
+        <end value="3600"/>
+        <!-- 
+        The step length must be aligned witht he one in the sumo socketClient.
+        This can be setup in Unity Editor!        
+        -->
+        <step-length value="0.1"/>
+    </time>
+
 </configuration>
