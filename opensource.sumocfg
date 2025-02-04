@@ -6,8 +6,9 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="net_files/tum_campus.net.xml"/>
-        <route-files value="demand_files/test_demand_opensource.rou.xml"/>
+        <net-file value="net_files/tum_campus_escooter_study.net.xml"/>
+        <!-- <net-file value="net_files/tum_campus.net.xml"/> -->
+        <route-files value="demand_files/test_demand_opensource_carOnly.rou.xml"/>
     </input>
 
     <time>
