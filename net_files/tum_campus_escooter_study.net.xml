@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2025-01-20 13:50:06 by Eclipse SUMO netedit Version 1.21.0
+<!-- generated on 2025-02-06 16:53:47 by Eclipse SUMO netedit Version 1.21.0
 <neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
-        <sumocfg-file value="C:\Users\TUBVVTK-VTSIM11\unity_ws2\Sumonity-UnityBaseProject\Assets\Sumonity\SumoTraCI\sumoProject\opensource.sumocfg"/>
-        <additional-files value=""/>
-        <route-files value="C:\Users\TUBVVTK-VTSIM11\unity_ws2\Sumonity-UnityBaseProject\Assets\Sumonity\SumoTraCI\sumoProject\demand_files/test_demand_opensource_carOnly.rou.xml"/>
-        <sumo-net-file value="C:\Users\TUBVVTK-VTSIM11\unity_ws2\Sumonity-UnityBaseProject\Assets\Sumonity\SumoTraCI\sumoProject\net_files\tum_campus_escooter_study.net.xml"/>
+        <sumocfg-file value="C:\Users\TUBVVTK-VTSIM11\unity2025_ws\Sumonity-UnityBaseProject\Assets\Sumonity\SumoTraCI\sumoProject\opensource.sumocfg"/>
+        <additional-files value="C:\Users\TUBVVTK-VTSIM11\unity2025_ws\Sumonity-UnityBaseProject\Assets\Sumonity\SumoTraCI\sumoProject\opensource.add.xml"/>
+        <route-files value="C:\Users\TUBVVTK-VTSIM11\unity2025_ws\Sumonity-UnityBaseProject\Assets\Sumonity\SumoTraCI\sumoProject\demand_files/test_demand_opensource_carOnly.rou.xml"/>
+        <sumo-net-file value="C:\Users\TUBVVTK-VTSIM11\unity2025_ws\Sumonity-UnityBaseProject\Assets\Sumonity\SumoTraCI\sumoProject\net_files/tum_campus_escooter_study.net.xml"/>
     </input>
 
     <output>
-        <output-file value="C:\Users\TUBVVTK-VTSIM11\unity_ws2\Sumonity-UnityBaseProject\Assets\Sumonity\SumoTraCI\sumoProject\net_files\tum_campus_escooter_study.net.xml"/>
+        <output-file value="C:\Users\TUBVVTK-VTSIM11\unity2025_ws\Sumonity-UnityBaseProject\Assets\Sumonity\SumoTraCI\sumoProject\net_files/tum_campus_escooter_study.net.xml"/>
     </output>
 
     <processing>
