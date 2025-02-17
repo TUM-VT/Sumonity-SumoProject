@@ -7,7 +7,7 @@
 
     <input>
         <net-file value="net_files/tum_campus_escooter_study.net.xml"/>
-        <route-files value="demand_files/test_demand_opensource_carOnly.rou.xml"/>
+        <route-files value="demand_files/test_demand_opensource_sumoUC_2025.rou.xml"/>
         <additional-files value="opensource.add.xml"/>
     </input>
 

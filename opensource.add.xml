@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2025-02-10 11:21:46 by Eclipse SUMO netedit Version 1.21.0
+<!-- generated on 2025-02-17 16:30:33 by Eclipse SUMO netedit Version 1.22.0
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <!-- StoppingPlaces -->
-    <busStop id="bs_0" lane="-245_1" startPos="6.72" endPos="16.72"/>
+    <busStop id="bs_0" lane="-245_2" startPos="8.46" endPos="18.46"/>
 </additional>
